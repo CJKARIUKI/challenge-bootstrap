@@ -4,75 +4,109 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grid away, grid ahoy!</title>
+  <title>Grid away,Grid ahoy!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="style.css">
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-   
-  </head>
-  <body>
-    
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-  </body>
-</html>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
-
 <body>
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-md-3">
-      <div class="card" style="width: 20rem;">
-        <img src="bootstrap-stack.png" class="card-img-top" alt="...">
-        <div class="card-body text-centfa-rotate-180">
-          <h5 class="card-title">Your EMP back OfficeTour</h5>
-          <p class="card-text"
-          >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-          <a href="#" class="btn btn-success">Learn More</a>
+  <div class="container">
+    <div class="row col-lg-12   d-flex justify-content=around">
+      <div class="col-md-3">
+        <div class="card mb-xl-3" style="width: 18rem;">
+          <img src="friday.jpg" class="card-img-top" alt="image">
+          <div class="card-body text-center ">
+            <h5 class="card-title text-center">Friday</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <hr class="mt-2 mb-3" id="card5Line"/>
+            <button type="button" class="btn btn-outline-primary text-black-50" data-toggle="tooltip" data-placement="bottom" title="LEARN MORE" onmouseenter="removeLine(card1Line)" onmouseout="addLine(card1Line)">learn more</button>
+          </div>  
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card mb-xl-3" style="width: 18rem;">
+          <img src="home.jpg" class="card-img-top" alt="image">
+          <div class="card-body text-center">
+            <h5 class="card-title text-center">Home</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <hr class="mt-2 mb-3" id="card5Line"/>
+            <button type="button" class="btn btn-outline-primary text-black-50" data-toggle="tooltip" data-placement="bottom" title="LEARN MORE" onmouseenter="removeLine(card1Line)" onmouseout="addLine(card1Line)">learn more</button>
+          </div>  
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card mb-xl-3" style="width: 18rem;">
+          <img src="inbox.webp" class="card-img-top" alt="image">
+          <div class="card-body text-center">
+            <h5 class="card-title text-center">Inbox</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <hr class="mt-2 mb-3" id="card5Line"/>
+            <button type="button" class="btn btn-outline-primary text-black-50" data-toggle="tooltip" data-placement="bottom" title="LEARN MORE" onmouseenter="removeLine(card1Line)" onmouseout="addLine(card1Line)">learn more</button>
+          </div>  
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card mb-xl-3" style="width: 18rem;">
+          <img src="iOS.jpg" class="card-img-top" alt="image">
+          <div class="card-body text-center">
+            <h5 class="card-title text-center">The iOS</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <hr class="mt-2 mb-3" id="card5Line"/>
+            <button type="button" class="btn btn-outline-primary text-black-50" data-toggle="tooltip" data-placement="bottom" title="LEARN MORE" onmouseenter="removeLine(card1Line)" onmouseout="addLine(card1Line)">learn more</button>
+          </div>  
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card mb-xl-3" style="width: 18rem;">
+          <img src="location.png" class="card-img-top" alt="image">
+          <div class="card-body text-center">
+            <h5 class="card-title text-center">Location</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <hr class="mt-2 mb-3" id="card5Line"/>
+            <button type="button" class="btn btn-outline-primary text-black-50" data-toggle="tooltip" data-placement="bottom" title="LEARN MORE" onmouseenter="removeLine(card1Line)" onmouseout="addLine(card1Line)">learn more</button>
+          </div>  
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card mb-xl-3" style="width: 18rem;">
+          <img src="call.png" class="card-img-top" alt="image">
+          <div class="card-body text-center">
+            <h5 class="card-title text-center">Call Now</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <hr class="mt-2 mb-3" id="card5Line"/>
+            <button type="button" class="btn btn-outline-primary text-black-50" data-toggle="tooltip" data-placement="bottom" title="LEARN MORE" onmouseenter="removeLine(card1Line)" onmouseout="addLine(card1Line)">learn more</button>
+          </div>  
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card mb-xl-3" style="width: 18rem;">
+          <img src="settings.webp" class="card-img-top" alt="image">
+          <div class="card-body text-center">
+            <h5 class="card-title text-center">Set up</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <hr class="mt-2 mb-3" id="card5Line"/>
+            <button type="button" class="btn btn-outline-primary text-black-50" data-toggle="tooltip" data-placement="bottom" title="LEARN MORE" onmouseenter="removeLine(card1Line)" onmouseout="addLine(card1Line)">learn more</button>
+          </div>  
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card card mb-xl-3" style="width: 18rem;">
+          <img src="timeicon.webp" class="card-img-top" alt="image">
+          <div class="card-body text-center">
+            <h5 class="card-title text-center">Time Goes Quick</h5>
+            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <hr class="mt-2 mb-3" id="card5Line"/>
+            <button type="button" class="btn btn-outline-primary text-black-50" data-toggle="tooltip" data-placement="bottom" title="LEARN MORE" onmouseenter="removeLine(card1Line)" onmouseout="addLine(card1Line)">learn more</button>
+          </div>  
         </div>
       </div>
     </div>
-
-    <div class="col-md-3">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-4">
-            <div class="card" style="width: 20rem;">
-              <img src="bootstrap-stack.png" class="card-img-top" alt="...">
-              <div class="card-body text-centfa-rotate-180">
-                <h5 class="card-title">Your EMP back OfficeTour</h5>
-                <p class="card-text"
-                >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <a href="#" class="btn btn-success">Learn More</a>
-              </div>
-            </div>
-    </div>
-    <div class="col-md-4">
-      
-    </div>
-
   </div>
-</div>
   
 </body>
 </html>
